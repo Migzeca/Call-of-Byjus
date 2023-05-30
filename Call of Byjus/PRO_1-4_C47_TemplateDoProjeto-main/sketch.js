@@ -72,7 +72,7 @@ function draw() {
     //}
 
     if(blueBubbleGroup.collide(bulletGroup)){
-      handleBubbleCollision();
+      handleBubbleCollision(blueBubbleGroup);
     }
     
     /*if(blueBubbleGroup.collide()){
@@ -80,7 +80,7 @@ function draw() {
     }*/
     
     /*if(blueBubbleGroup.collide(bulletGroup)){
-      handleBubbleCollision(blueBubbleGroup);
+      handleBubbleCollision();
     }*/
 
     if(redBubbleGroup.collide(bulletGroup)){
